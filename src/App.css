@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,700&display=swap');
 .App {
   text-align: center;
 }
@@ -6,23 +8,51 @@
   height: 40vmin;
   pointer-events: none;
 }
+body{
+  font-family: 'Ubuntu', sans-serif;
+  background-color: rgb(122, 216, 127);
+  margin: 50px;
+  text-align: center;
+}
+h1{
+  font-family: 'Ubuntu',sans-serif;
+  color: darkgreen;
+}
+ul{
+  border: darkgreen;
+  text-align: center;
+  color: #fff;
+  font-size: 1.1rem;
+  margin:auto 30%
+}
 
+p{
+  font-weight: bold;
+}
+hr{
+  margin: 50px;
+}
+button{
+  font-family: 'Ubuntu', sans-serif;;
+  background-color: darkgreen;
+  
+  border-radius: 0.7rem;
+  border: darkgreen;
+  color:#fff;
+  font-size: 1rem;
+  margin: 10px;
+  padding: 10px;
+  transition: padding 1s;
+}
+button:hover{
+  padding: 11px;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
 .App-link {
   color: #61dafb;
@@ -35,4 +65,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+@media (max-width:1156px) {
+  ul{
+    font-size: 1rem;
+    line-height: 2;
+    margin: 5%;}
+    hr{
+    margin: 10px;
+    }
 }
